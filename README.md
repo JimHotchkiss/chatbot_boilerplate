@@ -25,7 +25,7 @@ A quick‐start template for building a chat interface with [Streamlit](https://
 
 1. **Clone repository**  
    ```bash
-   git clone https://github.com/your-org/your-repo.git
+   git clone https://github.com/JimHotchkiss/chatbot_boilerplate.git
    cd your-repo
    ```
 
