@@ -2,8 +2,6 @@
 
 A quick‐start template for building a chat interface with [Streamlit](https://streamlit.io) and the OpenAI API.
 
-![Chatbot Demo](./assets/chatbot-demo.png)
-
 ---
 
 ## 🚀 Features
