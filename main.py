@@ -18,7 +18,7 @@ client = OpenAI()
 # Define the model you want to use
 model = "o4-mini"
 
-dashboard, load_pdf, dashboard_bot = st.tabs(["Dashboard", "Load PDF", "Dashboard Bot"])
+dashboard, load_pdf, dashboard_bot, tab2 = st.tabs(["Dashboard", "Load PDF", "Dashboard Bot"])
 
 with dashboard:
     st.header("Dashboard")
@@ -34,6 +34,8 @@ with load_pdf:
         st.write(bytes_data)
 with dashboard_bot:
     st.header("Dashboard Bot")
+with tab2:
+    st.header("Tab 2")
 
     st.title("🤖 ChatBot Boilerplate")
 
